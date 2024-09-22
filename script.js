@@ -7,7 +7,7 @@ bands.sort((a,b) => {
 	return a.localeCompare(b);
 });
 
-const ul=document.getElementById("band");
+const ul=document.getElementById("bands");
 bands.forEach((band)=>{
 	const li=document.createElement("li");
 	li.innerText=band;
